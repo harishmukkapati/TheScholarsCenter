@@ -1,0 +1,168 @@
+/* styles/index.css */
+
+/* styles/index.css */
+
+/* Reset default margin and padding */
+body,
+h1, h2, h3, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font family and background color */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f7f7f7; /* Light gray background */
+}
+
+/* Navigation bar styles */
+nav {
+  color: #000000;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+/* Line under the navbar */
+/* Logo image styles */
+nav img {
+  width: 50px;
+  height: 50px;
+  margin-left: 700px;
+  position: absolute;
+}
+
+/* Center-aligned text */
+.nav-text {
+  flex: 1;
+  text-align: center;
+  margin-left: 300px;
+}
+
+/* Skinny button */
+.nav-button {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  border: 10px solid #007bff; /* Blue border */
+  border-radius: 5px;
+  background-color: #ee796c;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 300px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Make button hover effect more subtle */
+.nav-button:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: #fff; /* White text on hover */
+}
+
+.generate {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  border: 10px solid #007bff; /* Blue border */
+  border-radius: 5px;
+  background-color: #ee796c;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Make button hover effect more subtle */
+.generate:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: #fff; /* White text on hover */
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Heading styles */
+h2 {
+  font-size: 2rem; /* Decrease font size */
+  margin-bottom: 40px; /* Increase margin */
+  font-weight: 700;
+  color: #333; /* Dark gray color */
+}
+
+h3 {
+  font-size: 1.5rem; /* Decrease font size */
+  margin-bottom: 10px; /* Increase margin */
+  color: #666; /* Darker gray color */
+}
+
+/* YouTube video styles */
+iframe {
+  width: 31vw; /* Make video extend to full width */
+  height: 400px;
+  margin-bottom: 20px; /* Increase margin */
+}
+
+/* Button container styles */
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Upvote and downvote button styles */
+.upvote-button {
+  background-color: #007bff; /* Blue color */
+  color: #fff;
+  border: none;
+  border-radius: 50%; /* Circular border radius */
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem; /* Increase font size */
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.downvote-button {
+  background-color: #ff5e4d; /* Blue color */
+  color: #fff;
+  border: none;
+  border-radius: 50%; /* Circular border radius */
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem; /* Increase font size */
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.upvote-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.downvote-button:hover {
+  background-color: #d13c2e; /* Darker red on hover */
+}
+
+.upvote-button:focus,
+.downvote-button:focus {
+  outline: none; /* Remove outline on focus */
+}
+
+.upvote-button,
+.downvote-button {
+  margin-bottom: 15px;
+}
